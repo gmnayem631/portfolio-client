@@ -11,7 +11,7 @@ export default function Navbar() {
       <div className="flex-1">
         <a
           href="#"
-          className="btn btn-ghost normal-case text-xl font-lato"
+          className="btn btn-ghost normal-case text-2xl font-lato"
           style={{ color: "#00BDAA" }}
         >
           Nayem
