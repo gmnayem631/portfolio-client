@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ResumeButton from "./ResumeButton";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -38,6 +39,9 @@ export default function Navbar() {
               Contact
             </a>
           </li>
+          <div className="">
+            <ResumeButton></ResumeButton>
+          </div>
         </ul>
 
         {/* Mobile Hamburger */}
