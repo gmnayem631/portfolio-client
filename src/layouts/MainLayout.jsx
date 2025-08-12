@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import AboutMe from "../components/AboutMe";
 import Skills from "../components/Skills";
+import Education from "../components/Education";
+import Projects from "../components/Projects";
 
 const MainLayout = () => {
   return (
@@ -14,6 +16,8 @@ const MainLayout = () => {
         <Hero></Hero>
         <AboutMe></AboutMe>
         <Skills></Skills>
+        <Education></Education>
+        <Projects></Projects>
       </main>
     </div>
   );
