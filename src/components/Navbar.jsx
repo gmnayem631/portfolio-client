@@ -26,12 +26,19 @@ export default function Navbar() {
               Home
             </a>
           </li>
-
-          <li className="cursor-pointer hover:text-[#6B4E71]">Portfolio</li>
-
           <li>
             <a href="#about" className="hover:text-[#6B4E71]">
               About
+            </a>
+          </li>
+          <li>
+            <a href="#skills" className="hover:text-[#6B4E71]">
+              Skills
+            </a>
+          </li>{" "}
+          <li>
+            <a href="#projects" className="hover:text-[#6B4E71]">
+              Projects
             </a>
           </li>
           <li>

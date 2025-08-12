@@ -65,6 +65,7 @@ const SkillsSection = () => {
 
   return (
     <section
+      id="skills"
       className="relative bg-[#F5DDDD] py-20 px-6 rounded-3xl"
       aria-label="Skills Section"
     >

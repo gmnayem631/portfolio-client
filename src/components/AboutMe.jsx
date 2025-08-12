@@ -20,7 +20,7 @@ const AboutMe = () => {
   ];
 
   return (
-    <section className="max-w-6xl mx-auto px-4 py-20">
+    <section className="max-w-6xl mx-auto px-4 py-20" id="about">
       <div className="bg-[#F5DDDD] dark:bg-[#3A4454] rounded-2xl shadow-2xl overflow-hidden flex flex-col md:flex-row items-center gap-10 p-8 md:p-12">
         {/* Image */}
         <motion.div
