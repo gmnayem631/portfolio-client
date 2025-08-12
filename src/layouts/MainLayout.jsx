@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import AboutMe from "../components/AboutMe";
 
 const MainLayout = () => {
   return (
@@ -10,6 +11,7 @@ const MainLayout = () => {
       </header>
       <main>
         <Hero></Hero>
+        <AboutMe></AboutMe>
       </main>
     </div>
   );
