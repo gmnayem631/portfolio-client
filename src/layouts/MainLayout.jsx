@@ -5,6 +5,7 @@ import AboutMe from "../components/AboutMe";
 import Skills from "../components/Skills";
 import Education from "../components/Education";
 import Projects from "../components/Projects";
+import Contact from "../components/Contact";
 
 const MainLayout = () => {
   return (
@@ -18,6 +19,7 @@ const MainLayout = () => {
         <Skills></Skills>
         <Education></Education>
         <Projects></Projects>
+        <Contact></Contact>
       </main>
     </div>
   );
